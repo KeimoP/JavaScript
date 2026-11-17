@@ -36,3 +36,10 @@ console.log(uusepost);
 
 
 let andmerida = "1,Marshal,Martinovic,mmartinovic0@dedecms.com,Male,40.19.226.175";
+let andmeridasplit = andmerida.split(",");
+let email = andmeridasplit[3];
+let ip = andmeridasplit[5];
+let andmeemailhat = email.indexOf("@");
+let emailnimi = email.substring(0,andmeemailhat);
+console.log(`${ip} ja ${emailnimi}`)
+
