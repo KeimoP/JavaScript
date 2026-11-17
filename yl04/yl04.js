@@ -32,5 +32,10 @@ let sportlased = [
 ["Charlie", 28, [11.1, 11.2, 11.5]]
 ];
 
-let nimed = sportlased[0];
-console.log(nimed);
+let sportlane1 = sportlased[0][2];
+let sportlane2 = sportlased[1];
+let sportlane3 = sportlased[2];
+
+// let parimtulemus = .sort((a, b) => b - a);
+let sportlane1keskmine = sportlane1
+console.log(sportlane1);
